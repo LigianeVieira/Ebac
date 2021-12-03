@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto:wght@400;700&display=swap');
+body{
+background-image: linear-gradient(to left,  #A750F2,#9548D9,#4F2673);
+font-family: 'Roboto', sans-serif;
+}
+header,
+footer {
+    background-color: #9b9797b6;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+h6,h1,h2{
+    color:aliceblue;
+}
+p {
+    margin-bottom: 10px;
+    color:aliceblue;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    width: 120px;
+    margin: 30px 0;
+    height: auto;
+}
+
+.carousel,
+.row {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: auto;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to left, rgb(201, 87, 106),rgb(138, 63, 207));
+    width: 100px; 
+}
+
+.btn-primary:hover {
+    background-color: rgb(9, 49, 148);
+}
+
+
+.card {
+    float: left;
+    margin: 15px;
+    background: rgb(103, 103, 230);
+}
+.avatar{
+    width:350px;
+}
+.gato{
+    position: relative;
+    left: 210px;
+   
+}
+.html{position: relative;
+    left: 350px;
+    top:-55px;
+    
+}
+.formacao{
+    color:black;
+}
+.cardimg{
+    height: 80px;
+    padding: 2px;
+    margin-top: 10px;
+    
+}

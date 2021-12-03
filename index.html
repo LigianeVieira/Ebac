@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="container"> 
+        <img id="logo" alt="logo" width="110" height="40" src="https://ebaconline.com.br/_nuxt/d58908d198123d3c50c18638f58abb26.svg" class="not-lazy">
+      </div>
+    </header>
+
+    
+    
+    <section class="container">
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="html" src="./images/imag-removebg-preview.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="gato" src="./images/image2-removebg-preview.png" alt="imagem">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Ligiane</h1>
+          <h6>Em transição de carreira</h6>
+          <p>Sou iniciante na área de tecnologia, comecei há alguns meses a estudar linguagem de programação.
+            Consegui ser classificada para um programa de capacitação de tecnologias o Entra21, o qual estou aprendendo a linguagem de programação Java, mas me identifiquei mais com o Fron-end: Html, Css e Javascript.
+            No momento estou tentando ingressar nesta área!
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img class="avatar" src="./images/ligi-removebg-preview.png" alt="Avatar">
+        </div>
+      </div>
+
+      <h2>Contatos</h2>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="./github.svg" class="cardimg" alt="github">
+            <div class="card-body">
+            <a href="https://github.com/LigianeVieira" class="btn btn-primary">Abrir</i></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./linkedin.svg" class="cardimg" alt="linkedin">
+            <div class="card-body">
+            <a href="https://www.linkedin.com/in/ligiane-vieira-30a80681/" class="btn btn-primary">Abrir</a>
+            </div>
+          </div>
+                
+        </div>
+      </div>
+      <h2>Aprendendo</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item list-group-item-primary">Programação em Java</li>
+        <li class="list-group-item list-group-item-primary">HTML</li>
+        <li class="list-group-item list-group-item-primary">CSS</li>
+        <li class="list-group-item list-group-item-primary">Javascript</li>
+        <li class="list-group-item list-group-item-primary">Bootstrap</li>
+      </ul>
+
+      <h2>Formação</h2>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="meuacordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Administração
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p class="formacao">Conclusão 2015</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Analise e Desenvolvimento de Sistemas
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p class="formacao">Cursando 2º semestre</p>
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p class="text-center">&copy; 2021 - Desenvolvido por Marcelo e Modificado por Ligiane!</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
